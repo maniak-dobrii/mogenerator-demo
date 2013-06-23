@@ -6,15 +6,12 @@
 //
 
 #import "_CoreDataManager.h"
+#import "_CoreDataManager_Private.h"
 
 /**
     Remove persistent store file before CD stack initialization.
  */
 #define CLEAR_DB_FILE_ON_START 1
-
-@interface _CoreDataManager ()
-+ (void) p_informIsReady;
-@end
 
 @implementation _CoreDataManager
 

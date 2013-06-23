@@ -5,8 +5,12 @@
 //  Copyright (c) 2013 MANIAK_dobrii. All rights reserved.
 //
 
+// --- required Imports
 #import "CoreDataManager.h"
+#import "_CoreDataManager_Private.h"
+// --- custom Imports
 #import "Coords2D.h"
+
 
 @implementation CoreDataManager
 
@@ -63,8 +67,6 @@
                                                     lon:((double)rand() / RAND_MAX) * 340.0 - 170.0];
     }
 }
-
-
 
 + (void) warmUpTheCache {
     #warning Implement warmUpTheCache

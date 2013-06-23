@@ -9,9 +9,9 @@
 #  If no custom MO class is required, remove the "--base-class $baseClass" parameter from mogenerator call
 #baseClass=DOManagedObject
 
-HUMAN_DIR="${PROJECT_DIR}/MogeneratorDemo/Core Data/Entities"
-MACHINE_DIR="${PROJECT_DIR}/MogeneratorDemo/Core Data/EntitiesMachine"
-INCLUDE_H="${PROJECT_DIR}/MogeneratorDemo/Core Data/ModelIncludes.h"
+HUMAN_DIR="${PROJECT_DIR}/MogeneratorDemo/CoreData/Entities"
+MACHINE_DIR="${PROJECT_DIR}/MogeneratorDemo/CoreData/EntitiesMachine"
+INCLUDE_H="${PROJECT_DIR}/MogeneratorDemo/CoreData/ModelIncludes.h"
 
 curVer=`/usr/libexec/PlistBuddy "${INPUT_FILE_PATH}/.xccurrentversion" -c 'print _XCCurrentVersionName'`
 

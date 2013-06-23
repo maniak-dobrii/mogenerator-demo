@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C9DD16B17774A95002BCAB2 /* CDPlace.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C9DD16A17774A95002BCAB2 /* CDPlace.m */; };
+		6C9DD16E17774AA0002BCAB2 /* _CDPlace.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C9DD16D17774AA0002BCAB2 /* _CDPlace.m */; };
 		6CA1BAEF175B80F900163C33 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CA1BAEE175B80F900163C33 /* UIKit.framework */; };
 		6CA1BAF1175B80F900163C33 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CA1BAF0175B80F900163C33 /* Foundation.framework */; };
 		6CA1BAF3175B80F900163C33 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CA1BAF2175B80F900163C33 /* CoreGraphics.framework */; };
@@ -30,8 +32,6 @@
 		6CA1BB3D175B8C0F00163C33 /* Coords2D.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA1BB3B175B8C0F00163C33 /* Coords2D.m */; };
 		6CA1BB45175B91AD00163C33 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CA1BB44175B91AC00163C33 /* CoreLocation.framework */; };
 		6CA1BB4B175B9CC000163C33 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6CA1BB49175B9CC000163C33 /* Model.xcdatamodeld */; };
-		6CA1BB53175B9F9D00163C33 /* CDPlace.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA1BB4F175B9F9D00163C33 /* CDPlace.m */; };
-		6CA1BB54175B9F9D00163C33 /* _CDPlace.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA1BB52175B9F9D00163C33 /* _CDPlace.m */; };
 		6CA1BB57175BA9C000163C33 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA1BB56175BA9C000163C33 /* DetailViewController.m */; };
 		6CA1BB59175BAB0300163C33 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CA1BB58175BAB0200163C33 /* MapKit.framework */; };
 /* End PBXBuildFile section */
@@ -70,6 +70,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6C9DD1601776E27E002BCAB2 /* _CoreDataManager_Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = _CoreDataManager_Private.h; path = CoreData/_CoreDataManager_Private.h; sourceTree = "<group>"; };
+		6C9DD16917774A95002BCAB2 /* CDPlace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDPlace.h; path = MogeneratorDemo/CoreData/Entities/CDPlace.h; sourceTree = SOURCE_ROOT; };
+		6C9DD16A17774A95002BCAB2 /* CDPlace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDPlace.m; path = MogeneratorDemo/CoreData/Entities/CDPlace.m; sourceTree = SOURCE_ROOT; };
+		6C9DD16C17774AA0002BCAB2 /* _CDPlace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = _CDPlace.h; path = MogeneratorDemo/CoreData/EntitiesMachine/_CDPlace.h; sourceTree = SOURCE_ROOT; };
+		6C9DD16D17774AA0002BCAB2 /* _CDPlace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = _CDPlace.m; path = MogeneratorDemo/CoreData/EntitiesMachine/_CDPlace.m; sourceTree = SOURCE_ROOT; };
+		6C9DD16F17774AAB002BCAB2 /* ModelIncludes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ModelIncludes.h; path = CoreData/ModelIncludes.h; sourceTree = "<group>"; };
 		6CA1BAEB175B80F900163C33 /* MogeneratorDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MogeneratorDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CA1BAEE175B80F900163C33 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6CA1BAF0175B80F900163C33 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -104,11 +110,6 @@
 		6CA1BB3B175B8C0F00163C33 /* Coords2D.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Coords2D.m; sourceTree = "<group>"; };
 		6CA1BB44175B91AC00163C33 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		6CA1BB4A175B9CC000163C33 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
-		6CA1BB4C175B9F9D00163C33 /* ModelIncludes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ModelIncludes.h; path = "Core Data/ModelIncludes.h"; sourceTree = "<group>"; };
-		6CA1BB4E175B9F9D00163C33 /* CDPlace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDPlace.h; sourceTree = "<group>"; };
-		6CA1BB4F175B9F9D00163C33 /* CDPlace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDPlace.m; sourceTree = "<group>"; };
-		6CA1BB51175B9F9D00163C33 /* _CDPlace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _CDPlace.h; sourceTree = "<group>"; };
-		6CA1BB52175B9F9D00163C33 /* _CDPlace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _CDPlace.m; sourceTree = "<group>"; };
 		6CA1BB55175BA9C000163C33 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		6CA1BB56175BA9C000163C33 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		6CA1BB58175BAB0200163C33 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
@@ -227,7 +228,7 @@
 		6CA1BB29175B82B000163C33 /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
-				6CA1BB4C175B9F9D00163C33 /* ModelIncludes.h */,
+				6C9DD16F17774AAB002BCAB2 /* ModelIncludes.h */,
 				6CA1BB4D175B9F9D00163C33 /* Entities */,
 				6CA1BB50175B9F9D00163C33 /* EntitiesMachine */,
 				6CA1BB49175B9CC000163C33 /* Model.xcdatamodeld */,
@@ -235,6 +236,7 @@
 				6CA1BB2B175B82C300163C33 /* _CoreDataManager.m */,
 				6CA1BB2C175B82C300163C33 /* CoreDataManager.h */,
 				6CA1BB2D175B82C300163C33 /* CoreDataManager.m */,
+				6C9DD1601776E27E002BCAB2 /* _CoreDataManager_Private.h */,
 			);
 			name = CoreData;
 			sourceTree = "<group>";
@@ -263,8 +265,8 @@
 		6CA1BB4D175B9F9D00163C33 /* Entities */ = {
 			isa = PBXGroup;
 			children = (
-				6CA1BB4E175B9F9D00163C33 /* CDPlace.h */,
-				6CA1BB4F175B9F9D00163C33 /* CDPlace.m */,
+				6C9DD16917774A95002BCAB2 /* CDPlace.h */,
+				6C9DD16A17774A95002BCAB2 /* CDPlace.m */,
 			);
 			name = Entities;
 			path = "Core Data/Entities";
@@ -273,8 +275,8 @@
 		6CA1BB50175B9F9D00163C33 /* EntitiesMachine */ = {
 			isa = PBXGroup;
 			children = (
-				6CA1BB51175B9F9D00163C33 /* _CDPlace.h */,
-				6CA1BB52175B9F9D00163C33 /* _CDPlace.m */,
+				6C9DD16C17774AA0002BCAB2 /* _CDPlace.h */,
+				6C9DD16D17774AA0002BCAB2 /* _CDPlace.m */,
 			);
 			name = EntitiesMachine;
 			path = "Core Data/EntitiesMachine";
@@ -400,9 +402,9 @@
 				6CA1BB3C175B8C0F00163C33 /* CLLocation+Coords2D.m in Sources */,
 				6CA1BB3D175B8C0F00163C33 /* Coords2D.m in Sources */,
 				6CA1BB4B175B9CC000163C33 /* Model.xcdatamodeld in Sources */,
-				6CA1BB53175B9F9D00163C33 /* CDPlace.m in Sources */,
-				6CA1BB54175B9F9D00163C33 /* _CDPlace.m in Sources */,
 				6CA1BB57175BA9C000163C33 /* DetailViewController.m in Sources */,
+				6C9DD16B17774A95002BCAB2 /* CDPlace.m in Sources */,
+				6C9DD16E17774AA0002BCAB2 /* _CDPlace.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
